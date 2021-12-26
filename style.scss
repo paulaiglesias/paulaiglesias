@@ -177,10 +177,6 @@ ul ul li {
     padding: 7px;
 }
 
-// .navegador {
-//     margin-bottom: 0;
-// }
-
 .menuLink {
     border-radius: 5px;
     transition: 1s;
@@ -207,25 +203,6 @@ ul ul li {
     font-family: Verdana, sans-serif;
     line-height: 1.6;
 }
-
-// .servicios1 {
-//     padding-top: 20px;
-//     padding-bottom: 10px;
-//     margin-left: 50px;
-// }
-
-// .servicios2 {
-//     padding-top: 10px;
-//     padding-bottom: 10px;
-//     margin-left: 50px;
-// }
-
-// .servicios3 {
-//     padding-top: 10px;
-//     padding-bottom: 10px;
-//     margin-left: 50px;
-//     margin-bottom: 50px;
-// }
 
 .galeriaContenedor {
     display: grid;
@@ -356,11 +333,14 @@ ul ul li {
 
 .carousel-inner {
     justify-content: center;
+    
+    .foto {
+        width: 640px;
+        height: 360px;
+    }
 }
 
-.foto {
-    width: 100%;
-}
+
 
 ul {
     margin-bottom: 0;
