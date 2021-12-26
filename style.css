@@ -24,27 +24,28 @@
   width: 50%;
   color: white;
   line-height: 1.6;
-  margin-top: 20px;
-  margin-right: 20px;
+  margin: 20px;
+  font-size: 20px;
   font-family: 'Urbanist', sans-serif;
 }
 
-.quienes .fotog, .quieness .fotog, .quienesss .fotog, .quieness .fotog1 {
-  width: 360px;
-  height: 438.5px;
+.quienes .fotog, .quieness .fotog, .quienesss .fotog {
+  width: 244px;
+  height: 300px;
 }
 
 .quienesSomos--color {
   color: #979696;
 }
 
-.quieness p {
-  margin-left: 20px;
+.quieness .fotog1 {
+  width: 244px;
+  height: 300px;
 }
 
 .quienesss .fotog2 {
-  width: 40%;
-  height: 40%;
+  width: 360px;
+  height: 230px;
 }
 
 .header__logo {
@@ -483,6 +484,22 @@ ul {
   #img8 {
     height: 200px;
   }
+  .quienes, .quieness, .quienesss, .quieness, .quienesss {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    margin-left: 150px;
+  }
 }
 
 @media only screen and (max-width: 769px) {
@@ -522,6 +539,22 @@ ul {
   #img7,
   #img8 {
     height: 300px;
+  }
+  .quienes, .quieness, .quienesss, .quieness, .quienesss {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    margin-left: 150px;
   }
 }
 /*# sourceMappingURL=style.css.map */

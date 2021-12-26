@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-$ancho: 720px;
-$alto: 877px;
 $color1: #979696;
 
 .quienes {
@@ -18,15 +16,14 @@ $color1: #979696;
         width: 50%;
         color: white;
         line-height: 1.6;
-        margin-top: 20px;
-        margin-right: 20px;
-        ;
+        margin: 20px;
+        font-size: 20px;
         font-family: 'Urbanist', sans-serif;
     }
 
     .fotog {
-        width: $ancho/2;
-        height: $alto/2;
+        width: 244px;
+        height: 300px;
     }
 }
 
@@ -37,12 +34,9 @@ $color1: #979696;
 .quieness {
     @extend .quienes;
 
-    p {
-        margin-left: 20px;
-    }
-
     .fotog1 {
-        @extend .fotog;
+        width: 244px;
+        height: 300px;
     }
 }
 
@@ -50,12 +44,10 @@ $color1: #979696;
     @extend .quienes;
 
     .fotog2{
-        width: 40%;
-        height: 40%;
+        width: 360px;
+        height: 230px;
     }
 }
-
-
 
 .header__logo {
     width: 25%;
@@ -337,7 +329,6 @@ ul ul li {
     .foto {
         width: 900px;
         height: 598px;
-        ;
     }
 }
 
@@ -400,6 +391,15 @@ ul {
     #img8 {
         height: 200px;
     }
+    .quienes, .quieness, .quienesss {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-content: center;
+        margin-left: 150px;
+    }
+
 }
 
 @media only screen and (max-width: 769px) {
@@ -432,4 +432,14 @@ ul {
     #img8 {
         height: 300px;
     }
+
+    .quienes, .quieness, .quienesss {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-content: center;
+        margin-left: 150px;
+    }
+
 }
